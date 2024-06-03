@@ -1,0 +1,6 @@
+@use "variables" as vars;
+@use "mixins";
+
+.btn-primary {
+  @include mixins.primary-button;
+}

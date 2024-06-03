@@ -2,6 +2,7 @@
 @use "variables" as vars;
 @use "typo" as *;
 @use "utilities" as *;
+@use "buttons" as *;
 @use "mixins" as *;
 
 // header
@@ -12,6 +13,8 @@ header {
   justify-content: space-between;
   width: 1300px;
   height: 48px;
+  margin-top: 2.12rem;
+  margin-bottom: vars.$margin-bottom;
 
   .navlink-container {
     display: flex;

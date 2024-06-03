@@ -2,10 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
   background: #090917;
   color: #fff;
 }
@@ -21,12 +22,33 @@ ul {
   min-height: 100vh;
 }
 
+.btn-primary {
+  display: flex;
+  width: 140px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1.5px solid #854ce6;
+  background: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn-primary:hover {
+  background: #854ce6;
+  transition-duration: 0.3s;
+}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 1300px;
   height: 48px;
+  margin-top: 2.12rem;
+  margin-bottom: 6.375rem;
 }
 header .navlink-container {
   display: flex;
