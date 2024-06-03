@@ -5,6 +5,16 @@ $tertiary-500: #e600ff;
 $font-color: #fff;
 $font-color-alternative-200: #8e8e94;
 $alternative-500: #1a2241;
+$linear-gradient-primary: linear-gradient(
+  89deg,
+  #854ce6 -1.41%,
+  #c31cf6 50.6%,
+  #e600ff 88.69%
+);
+
+// shadow
+
+$box-shadow-primary: 5px 5px 15px 0px rgba(255, 255, 255, 0.15);
 
 // transition
 $transition-duration: 0.3s;

@@ -1,6 +1,5 @@
 @use "reset" as *;
 @use "variables" as vars;
-@use "typo" as *;
 @use "utilities" as *;
 @use "buttons" as *;
 @use "mixins" as *;
@@ -27,5 +26,32 @@ header {
     &:last-child {
       margin-right: 0;
     }
+  }
+}
+
+// hero
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 576px;
+  gap: 12px;
+
+  p {
+    @include text-style-p-1;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
   }
 }

@@ -1,6 +1,23 @@
+@use "variables" as vars;
+
+// containers
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 2.625rem;
+  width: 1300px;
+}
+
+// others
+
+.separator {
+  color: vars.$secondary-500;
 }
