@@ -1,0 +1,28 @@
+@use "reset" as *;
+@use "variables" as vars;
+@use "typo" as *;
+@use "utilities" as *;
+@use "mixins" as *;
+
+// header
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300px;
+  height: 48px;
+
+  .navlink-container {
+    display: flex;
+  }
+
+  li {
+    @include navlink-style;
+    margin-right: 2rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

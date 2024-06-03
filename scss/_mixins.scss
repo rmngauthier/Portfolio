@@ -1,0 +1,15 @@
+@use "variables" as vars;
+
+// Navlink - li
+
+@mixin navlink-style {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition-duration: vars.$transition-duration;
+
+  &:hover {
+    color: vars.$secondary-500;
+    transition-duration: vars.$transition-duration;
+  }
+}
